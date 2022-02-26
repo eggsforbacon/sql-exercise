@@ -1,5 +1,3 @@
-/*TABLE CREATION*/
-
 CREATE TABLE Hotel(
   hotelNo VARCHAR2(4) NOT NULL, 
   hotelName VARCHAR2(25) NOT NULL, 
@@ -49,8 +47,6 @@ BEGIN
   END IF;
 END;
 /
-
-/*Inserts*/
 
 INSERT INTO Hotel VALUES ('H01', 'Hotel One', 'London')/
 INSERT INTO Hotel VALUES ('H02', 'Hotel Two', 'Paris')/
